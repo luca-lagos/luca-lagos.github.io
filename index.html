@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-section="head" data-value="title">
+      My portfolio - Luca Lagos
+    </title>
+    <link
+      rel="icon"
+      href="img/logo/Logo 2 Luca Color transparent.webp"
+      type="image/webp"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a href="#home" class="arrow-up" title="arrow-up"
+      ><i class="fas fa-arrow-up"></i
+    ></a>
+    <nav class="frame-opacity">
+      <a href="#home">
+        <img
+        src="img/logo/Logo 2 Luca Color transparent.webp"
+        alt="Luca Lagos Software Developer Logo"
+        width="425px" height="70px"
+      />
+      </a>
+      <button class="nav-toggle" aria-label="open-nav-menu">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="nav-menu">
+        <a href="#home">
+          <li class="nav-item" data-section="nav" data-value="home">Home</li>
+        </a>
+        <a href="#about-me-nav">
+          <li class="nav-item" data-section="nav" data-value="about-me">
+            About me
+          </li>
+        </a>
+        <a href="#skills-nav">
+          <li class="nav-item" data-section="nav" data-value="skills">
+            Skills
+          </li>
+        </a>
+        <a href="#experience-nav">
+          <li class="nav-item" data-section="nav" data-value="experience">
+            Experience
+          </li>
+        </a>
+        <a href="#projects-nav">
+          <li class="nav-item" data-section="nav" data-value="projects">
+            Projects
+          </li>
+        </a>
+        <a href="#contact-nav">
+          <li class="nav-item" data-section="nav" data-value="contact">
+            Contact
+          </li>
+        </a>
+      </ul>
+    </nav>
+    <div id="particles-js"></div>
+    <div id="home">
+      <div id="home-text" class="frame-opacity">
+        <h1 data-section="home" data-value="title">Hi, I'm Luca</h1>
+        <p data-section="home" data-value="subtitle">a software developer</p>
+      </div>
+      <div id="translator" class="frame-opacity">
+        <div id="translator-item-es" class="translator-item" data-language="es">
+          <img src="/img/languages/ar.svg" alt="luca-lagos-translator-ar" width="60px" height="45px" />
+          <div id="translator-item-es-checked" class="translator-item-overlay">
+            <i class="fas fa-check"></i>
+          </div>
+        </div>
+        <div id="translator-item-en" class="translator-item" data-language="en">
+          <img src="/img/languages/gb.svg" alt="luca-lagos-translator-gb" width="60px" height="45px" />
+          <div id="translator-item-en-checked" class="translator-item-overlay">
+            <i class="fas fa-check"></i>
+          </div>
+        </div>
+      </div>
+      <a
+        href="#about-me-nav"
+        class="arrow-down frame-opacity"
+        title="arrow-down"
+        ><i class="fas fa-arrow-down"></i
+      ></a>
+    </div>
+    <label for="" id="about-me-nav">
+      <i class="fas fa-circle object-circle-one"></i>
+      <i class="fas fa-circle object-circle-two"></i>
+      <i class="fas fa-circle object-circle-three"></i>
+    </label>
+    <div id="about-me">
+      <h1 data-section="about-me" data-value="title">About me</h1>
+      <div class="about-me-panel">
+        <div class="about-me-text">
+          <p data-section="about-me" data-value="description">
+            I am a software developer dedicated to the
+            <strong>design and construction of web applications</strong>, and
+            with experience and knowledge in both the frontend and backend
+            roles. I've been passionate about technology since I was a teenager,
+            an amateur in sports <i class="fas fa-biking"></i> , drawing
+            <i class="fas fa-paint-brush"></i> and film
+            <i class="fas fa-film"></i> , and a video game addict
+            <i class="fas fa-gamepad"></i>.
+          </p>
+        </div>
+        <img src="../img/home/luca-perfil.webp" alt="luca-lagos-perfil" />
+        <div class="about-me-download-cv">
+          <a
+            href="/docs/luca-lagos-cv-en.pdf"
+            title="download-cv"
+            target="_blank"
+            ><button
+              aria-label="download-cv"
+              data-section="about-me"
+              data-value="button"
+            >
+              Download CV
+            </button></a
+          >
+        </div>
+        <div class="about-me-overlay">
+          <a
+            href="/docs/luca-lagos-cv-en.pdf"
+            title="download-cv-overlay"
+            target="_blank"
+            ><button
+              aria-label="download-cv"
+              data-section="about-me"
+              data-value="button"
+            >
+              Download CV
+            </button></a
+          >
+        </div>
+      </div>
+    </div>
+    <label for="" id="skills-nav">
+      <i class="fas fa-circle object-circle-one"></i>
+      <i class="fas fa-circle object-circle-two"></i>
+      <i class="fas fa-circle object-circle-three"></i>
+    </label>
+    <div id="skills">
+      <h1 data-section="skills" data-value="title">Skills</h1>
+      <div class="skills-grid">
+        <div class="skills-panel">
+          <img src="img/skills/html5.webp" alt="luca-lagos-skill-html5" />
+          <div class="skills-overlay">
+            <div>
+              <a
+                href="https://developer.mozilla.org/es/docs/Glossary/HTML5"
+                target="_blank"
+                ><i class="fas fa-globe"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="skills-panel">
+          <img src="img/skills/css3.webp" alt="luca-lagos-skill-css3" />
+          <div class="skills-overlay">
+            <a
+              href="https://developer.mozilla.org/es/docs/Web/CSS"
+              target="_blank"
+              ><i class="fas fa-globe"></i
+            ></a>
+          </div>
+        </div>
+        <div class="skills-panel">
+          <img
+            src="img/skills/javascript.webp"
+            alt="luca-lagos-skill-javascript"
+          />
+          <div class="skills-overlay">
+            <a
+              href="https://developer.mozilla.org/es/docs/Web/JavaScript"
+              target="_blank"
+              ><i class="fas fa-globe"></i
+            ></a>
+          </div>
+        </div>
+        <div class="skills-panel">
+          <img
+            src="img/skills/bootstrap.webp"
+            alt="luca-lagos-skill-bootstrap"
+          />
+          <div class="skills-overlay">
+            <a href="https://getbootstrap.com/" target="_blank"
+              ><i class="fas fa-globe"></i
+            ></a>
+          </div>
+        </div>
+        <div class="skills-panel">
+          <img src="img/skills/jquery.webp" alt="luca-lagos-skill-jquery" />
+          <div class="skills-overlay">
+            <a href="https://jquery.com/" target="_blank"
+              ><i class="fas fa-globe"></i
+            ></a>
+          </div>
+        </div>
+        <div class="skills-panel">
+          <img src="img/skills/git.webp" alt="luca-lagos-skill-git" />
+          <div class="skills-overlay">
+            <a href="https://git-scm.com/" target="_blank"
+              ><i class="fas fa-globe"></i
+            ></a>
+          </div>
+        </div>
+        <div class="skills-panel">
+          <img src="img/skills/github.webp" alt="luca-lagos-skill-github" />
+          <div class="skills-overlay">
+            <a href="https://github.com/" target="_blank"
+              ><i class="fas fa-globe"></i
+            ></a>
+          </div>
+        </div>
+        <div class="skills-panel">
+          <img src="img/skills/java.webp" alt="luca-lagos-skill-java" />
+          <div class="skills-overlay">
+            <a href="https://www.java.com/es/" target="_blank"
+              ><i class="fas fa-globe"></i
+            ></a>
+          </div>
+        </div>
+        <div class="skills-panel">
+          <img
+            src="img/skills/spring-boot.webp"
+            alt="luca-lagos-skill-spring-boot"
+          />
+          <div class="skills-overlay">
+            <a href="https://spring.io/" target="_blank"
+              ><i class="fas fa-globe"></i
+            ></a>
+          </div>
+        </div>
+        <div class="skills-panel">
+          <img src="img/skills/nodejs.webp" alt="luca-lagos-skill-nodejs" />
+          <div class="skills-overlay">
+            <a href="https://nodejs.org/es/" target="_blank"
+              ><i class="fas fa-globe"></i
+            ></a>
+          </div>
+        </div>
+        <div class="skills-panel">
+          <img src="img/skills/mysql.webp" alt="luca-lagos-skill-mysql" />
+          <div class="skills-overlay">
+            <a href="https://www.mysql.com/" target="_blank"
+              ><i class="fas fa-globe"></i
+            ></a>
+          </div>
+        </div>
+        <div class="skills-panel">
+          <img src="img/skills/mongodb.webp" alt="luca-lagos-skill-mongodb" />
+          <div class="skills-overlay">
+            <a href="https://www.mongodb.com/es" target="_blank"
+              ><i class="fas fa-globe"></i
+            ></a>
+          </div>
+        </div>
+        <div class="skills-panel">
+          <img
+            src="img/skills/adobe-illustrator.webp"
+            alt="luca-lagos-skill-adobe-illustrator"
+          />
+          <div class="skills-overlay">
+            <a
+              href="https://www.adobe.com/la/products/illustrator.html"
+              target="_blank"
+              ><i class="fas fa-globe"></i
+            ></a>
+          </div>
+        </div>
+        <div class="skills-panel">
+          <img
+            src="img/skills/adobe-photoshop.webp"
+            alt="luca-lagos-skill-adobe-photoshop"
+          />
+          <div class="skills-overlay">
+            <a
+              href="https://www.adobe.com/la/products/photoshop.html"
+              target="_blank"
+              ><i class="fas fa-globe"></i
+            ></a>
+          </div>
+        </div>
+        <div class="skills-panel">
+          <img
+            src="img/skills/adobe-premiere-pro.webp"
+            alt="luca-lagos-skill-adobe-premiere-pro"
+          />
+          <div class="skills-overlay">
+            <a
+              href="https://www.adobe.com/la/products/premiere.html"
+              target="_blank"
+              ><i class="fas fa-globe"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <label for="" id="experience-nav">
+      <i class="fas fa-circle object-circle-one"></i>
+      <i class="fas fa-circle object-circle-two"></i>
+      <i class="fas fa-circle object-circle-three"></i>
+    </label>
+    <div id="experience">
+      <h1 data-section="experience" data-value="title">Experience</h1>
+      <div id="experience-table">
+        <div class="experience-panel">
+          <div class="experience-links">
+            <a
+              href="https://www.mendoza.edu.ar/"
+              title="experience-gem-link"
+              target="_blank"
+              ><button
+                aria-label="gem-website"
+                data-section="experience"
+                data-value="button"
+              >
+                Go to website
+              </button></a
+            >
+          </div>
+          <img
+            src="/img/experience/logo_dge.webp"
+            alt="luca-lagos-dge-fullstack-developer"
+          />
+          <div class="experience-text">
+            <h2 data-section="experience" data-value="first-experience-company">
+              Dirección General de Escuelas - Government of Mendoza
+            </h2>
+            <h4 data-section="experience" data-value="first-experience-role">
+              Full-stack developer
+            </h4>
+            <p
+              data-section="experience"
+              data-value="first-experience-description"
+            >
+              Within the development area of the educational entity, I was in
+              charge of the development, maintenance and updating of the
+              applications that integrate the digital ecosystem of the public
+              and private educational system of the Government of Mendoza,
+              especially the GEM educational platform.
+            </p>
+          </div>
+          <div class="experience-overlay">
+            <a href="https://www.mendoza.edu.ar/" target="_blank"
+              ><button data-section="experience" data-value="button">
+                Go to website
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+      <ul id="experience-pagination" class="fade-left">
+        <a href="#gem" title="experience-dge-luca-lagos"
+          ><li><i class="fa-solid fa-circle"></i></li
+        ></a>
+      </ul>
+    </div>
+    <label for="" id="projects-nav">
+      <i class="fas fa-circle object-circle-one"></i>
+      <i class="fas fa-circle object-circle-two"></i>
+      <i class="fas fa-circle object-circle-three"></i>
+    </label>
+    <div id="projects">
+      <h1 data-section="projects" data-value="title">Projects</h1>
+      <!--<h2 id="projects-real-title" style="display: none" data-section="projects" data-value="subtitle-real">Real</h2>
+      <div id="projects-real-grid" class="projects-grid" style="display: none">
+        <div class="projects-panel">
+          <img
+            src="img/projects/codepen-tribute-page.webp"
+            alt="luca-lagos-codepen-tribute-page"
+          />
+          <div class="projects-overlay">
+            <h4 data-section="projects" data-value="first-prototype-title">Tribute page</h4>
+            <p data-section="projects" data-value="first-prototype-description">Historical tribute website made only with HTML, CSS and JavaScript.</p>
+            <div>
+              <a
+                href="https://codepen.io/luca-lagos/pen/mdqmYBw"
+                target="_blank"
+                ><i class="fas fa-folder-open"></i
+              ></a>
+              <a href="#" target="_blank"><i class="fas fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="projects-panel">
+          <img
+            src="img/projects/codepen-survey-form.webp"
+            alt="luca-lagos-codepen-survey-form"
+          />
+          <div class="projects-overlay">
+            <h4 data-section="projects" data-value="second-prototype-title">Survey form</h4>
+            <p data-section="projects" data-value="second-prototype-description">A survey webpage conducted using HTML, CSS, and JavaScript only.</p>
+            <div>
+              <a
+                href="https://codepen.io/luca-lagos/pen/mdqqKyo"
+                target="_blank"
+                ><i class="fas fa-folder-open"></i
+              ></a>
+              <a href="#" target="_blank"><i class="fas fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="projects-panel">
+          <img
+            src="img/projects/codepen-plp.webp"
+            alt="luca-lagos-codepen-product-landing-page"
+          />
+          <div class="projects-overlay">
+            <h4 data-section="projects" data-value="third-prototype-title">Product landing page</h4>
+            <p data-section="projects" data-value="third-prototype-description">Landing web page of a fictitious pizzeria made only with HTML, CSS and JavaScript.</p>
+            <div>
+              <a
+                href="https://codepen.io/luca-lagos/pen/GROBgmg"
+                target="_blank"
+                ><i class="fas fa-folder-open"></i
+              ></a>
+              <a href="#" target="_blank"><i class="fas fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr id="projects-real-line" style="display: none" />-->
+      <h2
+        id="projects-proto-title"
+        data-section="projects"
+        data-value="subtitle-prototype"
+      >
+        Prototypes
+      </h2>
+      <div id="projects-proto-grid" class="projects-grid">
+        <div class="projects-panel">
+          <img
+            src="img/projects/codepen-tribute-page.webp"
+            alt="luca-lagos-codepen-tribute-page"
+          />
+          <div class="projects-overlay">
+            <h4 data-section="projects" data-value="first-prototype-title">
+              Tribute page
+            </h4>
+            <p data-section="projects" data-value="first-prototype-description">
+              Historical tribute website made only with HTML, CSS and
+              JavaScript.
+            </p>
+            <div>
+              <a
+                href="https://codepen.io/luca-lagos/pen/mdqmYBw"
+                target="_blank"
+                ><i class="fas fa-folder-open"></i
+              ></a>
+              <a href="#" target="_blank"><i class="fas fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="projects-panel">
+          <img
+            src="img/projects/codepen-survey-form.webp"
+            alt="luca-lagos-codepen-survey-form"
+          />
+          <div class="projects-overlay">
+            <h4 data-section="projects" data-value="second-prototype-title">
+              Survey form
+            </h4>
+            <p
+              data-section="projects"
+              data-value="second-prototype-description"
+            >
+              A survey webpage conducted using HTML, CSS, and JavaScript only.
+            </p>
+            <div>
+              <a
+                href="https://codepen.io/luca-lagos/pen/mdqqKyo"
+                target="_blank"
+                ><i class="fas fa-folder-open"></i
+              ></a>
+              <a href="#" target="_blank"><i class="fas fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="projects-panel">
+          <img
+            src="img/projects/codepen-plp.webp"
+            alt="luca-lagos-codepen-product-landing-page"
+          />
+          <div class="projects-overlay">
+            <h4 data-section="projects" data-value="third-prototype-title">
+              Product landing page
+            </h4>
+            <p data-section="projects" data-value="third-prototype-description">
+              Landing web page of a fictitious pizzeria made only with HTML, CSS
+              and JavaScript.
+            </p>
+            <div>
+              <a
+                href="https://codepen.io/luca-lagos/pen/GROBgmg"
+                target="_blank"
+                ><i class="fas fa-folder-open"></i
+              ></a>
+              <a href="#" target="_blank"><i class="fas fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr id="projects-proto-line" />
+      <div class="projects-links">
+        <h2
+          id="projects-links-title"
+          data-section="projects"
+          data-value="more-projects-title"
+        >
+          More projects
+        </h2>
+        <div class="projects-links-icons">
+          <a
+            href="https://github.com/luca-lagos"
+            title="projects-link-github"
+            target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://codepen.io/luca-lagos"
+            title="projects-link-codepen"
+            target="_blank"
+            ><i class="fa-brands fa-codepen"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <label for="" id="contact-nav">
+      <i class="fas fa-circle object-circle-one"></i>
+      <i class="fas fa-circle object-circle-two"></i>
+      <i class="fas fa-circle object-circle-three"></i>
+    </label>
+    <div id="contact">
+      <h1 data-section="contact" data-value="title">Contact</h1>
+      <form id="contact-form" action="">
+        <label for="contact-name" data-section="contact" data-value="name-form"
+          >Complete name</label
+        >
+        <input type="text" id="contact-name" name="contact-name" required />
+        <label for="contact-mail" style="display: none"
+          >Correo electrónico</label
+        >
+        <input
+          type="email"
+          id="contact-email"
+          name="contact-email"
+          style="display: none"
+        />
+        <label
+          for="contact-subject"
+          data-section="contact"
+          data-value="subject-form"
+          >Subject</label
+        >
+        <input
+          type="text"
+          id="contact-subject"
+          name="contact-subject"
+          required
+        />
+        <label
+          for="contact-message"
+          data-section="contact"
+          data-value="message-form"
+          >Message</label
+        >
+        <textarea
+          name="contact-message"
+          id="contact-message"
+          cols="30"
+          rows="10"
+          required
+        ></textarea>
+        <button type="submit" data-section="contact" data-value="button">
+          Submit
+        </button>
+      </form>
+      <a href="mailto:lagos.herrera.luca@gmail.com" id="mail-submit"></a>
+    </div>
+  </body>
+  <footer>
+    <div class="social-media">
+      <a
+        href="https://www.linkedin.com/in/luca-lagos-herrera/"
+        title="social-media-link-linkedin"
+        ><i class="fab fa-linkedin-in" target="_blank"></i
+      ></a>
+      <a
+        href="https://wa.me/2634511483?text=¡Chateemos :)!"
+        title="social-media-link-whatsapp"
+        target="_blank"
+        ><i class="fab fa-whatsapp"></i
+      ></a>
+      <a
+        href="https://www.instagram.com/lucalagosherrera/"
+        title="social-media-link-instagram"
+        ><i class="fab fa-instagram" target="_blank"></i
+      ></a>
+      <a href="https://twitter.com/ElvoPreslo" title="social-media-link-twitter"
+        ><i class="fab fa-twitter" target="_blank"></i
+      ></a>
+      <a
+        href="https://github.com/LucaLagosHerrera"
+        title="social-media-link-github"
+        ><i class="fab fa-github" target="_blank"></i
+      ></a>
+      <a
+        href="https://codepen.io/lucalagosherrera"
+        title="social-media-link-codepen"
+        ><i class="fab fa-codepen" target="_blank"></i
+      ></a>
+    </div>
+    <div class="copyright" data-section="footer" data-value="copyright">
+      <p>Copyright © 2022. Developed by Luca Lagos.</p>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/62fd337bbc.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
+  </footer>
+</html>

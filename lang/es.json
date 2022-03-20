@@ -1,0 +1,55 @@
+{
+    "head":{
+        "title": "Mi portafolio - Luca Lagos"
+    },
+
+    "nav":{
+        "home": "Inicio",
+        "about-me": "Sobre mí",
+        "skills": "Habilidades",
+        "experience": "Experiencia",
+        "projects": "Proyectos",
+        "contact": "Contacto"
+    }, 
+    "home":{
+        "title": "Hola, soy Luca",
+        "subtitle": "un desarrollador de software"
+    },
+    "about-me":{
+        "title": "Sobre mí",
+        "description": "Soy un desarrollador de software dedicado en el <strong>diseño y construcción de aplicaciones web</strong>, y con experiencia y conocimientos tanto en el rol frontend como en el backend. Soy un apasionado por la tecnología desde la adolescencia, un aficionado en los deportes <i class='fas fa-biking'></i> , en el dibujo <i class='fas fa-paint-brush'></i> y en el cine <i class='fas fa-film'></i> , y un adicto a los videojuegos <i class='fas fa-gamepad'></i>.",
+        "button": "Descargar CV"
+    },
+    "skills":{
+        "title": "Habilidades"
+    },
+    "experience":{
+        "title": "Experiencia",
+        "first-experience-company": "Dirección General de Escuelas -  Gobierno de Mendoza",
+        "first-experience-role": "Desarrollador Full-stack",
+        "first-experience-description": "Dentro del área de desarrollo de la entidad educativa, me encargue del desarrollo, mantenimiento y actualización de las aplicaciones queintegran el ecosistema digital del sistema educativo público y privado del Gobierno de Mendoza, especialmente de la plataforma educativa GEM.",
+        "button": "Ir al sitio web"
+    },
+    "projects":{
+        "title": "Proyectos",
+        "subtitle-real": "Reales",
+        "subtitle-prototype": "Prototipos",
+        "first-prototype-title": "Página de tributo",
+        "first-prototype-description": "Página web de tributo histórico realizada solo con HTML, CSS y JavaScript.",
+        "second-prototype-title": "Encuesta",
+        "second-prototype-description": "Página web de una encuesta realizada solo con HTML, CSS y JavaScript.",
+        "third-prototype-title": "Página de aterrizaje de producto",
+        "third-prototype-description": "Página web de aterrizaje de una pizzeria ficticia realizada solo con HTML, CSS y JavaScript.",
+        "more-projects-title": "Más proyectos"
+    },
+    "contact":{
+        "title": "Contacto",
+        "name-form": "Nombre completo",
+        "subject-form": "Asunto",
+        "message-form": "Mensaje",
+        "button": "Enviar"
+    },
+    "footer":{
+        "copyright": "Copyright © 2022. Desarrollado por Luca Lagos."
+    }
+}

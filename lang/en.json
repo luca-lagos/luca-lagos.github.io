@@ -1,0 +1,55 @@
+{
+    "head":{
+        "title": "My portfolio - Luca Lagos"
+    },
+
+    "nav":{
+        "home": "Home",
+        "about-me": "About me",
+        "skills": "Skills",
+        "experience": "Experience",
+        "projects": "Projects",
+        "contact": "Contact"
+    }, 
+    "home":{
+        "title": "Hi, I'm Luca",
+        "subtitle": "a software developer"
+    },
+    "about-me":{
+        "title": "About me",
+        "description": "I am a software developer dedicated to the <strong>design and construction of web applications</strong>, and with experience and knowledge in both the frontend and backend roles. I've been passionate about technology since I was a teenager, an amateur in sports <i class='fas fa-biking'></i> , drawing <i class='fas fa-paint-brush'></i> and film <i class='fas fa-film'></i> , and a video game addict <i class='fas fa-gamepad'></i>.",
+        "button": "Download CV"
+    },
+    "skills":{
+        "title": "Skills"
+    },
+    "experience":{
+        "title": "Experience",
+        "first-experience-company": "Dirección General de Escuelas -  Government of Mendoza",
+        "first-experience-role": "Full-stack developer",
+        "first-experience-description": "Within the development area of the educational entity, I was in charge of the development, maintenance and updating of the applications that integrate the digital ecosystem of the public and private educational system of the Government of Mendoza, especially the GEM educational platform.",
+        "button": "Go to website"
+    },
+    "projects":{
+        "title": "Projects",
+        "subtitle-real": "Real",
+        "subtitle-prototype": "Prototypes",
+        "first-prototype-title": "Tribute page",
+        "first-prototype-description": "Historical tribute website made only with HTML, CSS and JavaScript.",
+        "second-prototype-title": "Survey form",
+        "second-prototype-description": "A survey webpage conducted using HTML, CSS, and JavaScript only.",
+        "third-prototype-title": "Product landing page",
+        "third-prototype-description": "Landing web page of a fictitious pizzeria made only with HTML, CSS and JavaScript.",
+        "more-projects-title": "More projects"
+    },
+    "contact":{
+        "title": "Contact",
+        "name-form": "Complete name",
+        "subject-form": "Subject",
+        "message-form": "Message",
+        "button": "Submit"
+    },
+    "footer":{
+        "copyright": "Copyright © 2022. Developed by Luca Lagos."
+    }
+}
