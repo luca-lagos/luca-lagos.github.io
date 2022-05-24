@@ -106,6 +106,8 @@ nav img {
   margin-top: 10px;
   margin-bottom: 10px;
   display: block;
+  filter: brightness(0) invert(1);
+  transition: 0.4s;
 }
 
 nav .nav-toggle {
@@ -154,6 +156,10 @@ nav .nav-menu .nav-item-active {
   background-color: black;
   border-bottom: 4px solid #e8ac07;
   transition: 0.4s;
+}
+
+.nav-scrolling-active img{
+  filter: brightness(100%) invert(0);
 }
 
 .nav-scrolling-active .nav-menu a {

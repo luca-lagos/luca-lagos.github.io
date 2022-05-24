@@ -32,9 +32,6 @@ let skillsGrid = document.querySelector("#skills .skills-grid");
 let expTitle = document.querySelector("#experience h1");
 let expPanel = document.querySelector("#experience .experience-panel");
 let proTitle = document.querySelector("#projects h1");
-/*let proRealTitle = document.querySelector("#projects-real-title");
-let proRealGrid = document.querySelector("#projects-real-grid");
-let proRealLine = document.querySelector("#projects-real-line");*/
 let proProtoTitle = document.querySelector("#projects-proto-title");
 let proProtoGrid = document.querySelector("#projects-proto-grid");
 let proProtoLine = document.querySelector("#projects-proto-line");
@@ -82,9 +79,6 @@ ioSkillsGrid.observe(skillsGrid);
 ioTitle.observe(expTitle);
 ioPanel.observe(expPanel);
 ioTitle.observe(proTitle);
-/*ioTitle.observe(proRealTitle);
-ioProGrid.observe(proRealGrid);
-ioPanel.observe(proRealLine);*/
 ioTitle.observe(proProtoTitle);
 ioProGrid.observe(proProtoGrid);
 ioPanel.observe(proProtoLine);
