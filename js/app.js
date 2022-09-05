@@ -32,7 +32,7 @@ let skillsGrid = document.querySelector("#skills .skills-grid");
 let expTitle = document.querySelector("#experience h1");
 let expPanel = document.querySelector("#experience .experience-panel");
 let proTitle = document.querySelector("#projects h1");
-let proProtoTitle = document.querySelector("#projects-proto-title");
+/*let proProtoTitle = document.querySelector("#projects-proto-title");*/
 let proProtoGrid = document.querySelector("#projects-proto-grid");
 let proProtoLine = document.querySelector("#projects-proto-line");
 let proLinksTitle = document.querySelector("#projects-links-title");
@@ -79,7 +79,7 @@ ioSkillsGrid.observe(skillsGrid);
 ioTitle.observe(expTitle);
 ioPanel.observe(expPanel);
 ioTitle.observe(proTitle);
-ioTitle.observe(proProtoTitle);
+/*ioTitle.observe(proProtoTitle);*/
 ioProGrid.observe(proProtoGrid);
 ioPanel.observe(proProtoLine);
 ioTitle.observe(proLinksTitle);
@@ -117,7 +117,7 @@ particlesJS({
       },
     },
     color: {
-      value: "#e8ac07",
+      value: "#6b0202",
     },
     shape: {
       type: "polygon",
